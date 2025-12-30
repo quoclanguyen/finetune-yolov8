@@ -1,3 +1,10 @@
+## Project Overview
+This is a project made for a further understanding about YOLOv8 and model quantization in vehicle detection problem.  
+
+The reason for choosing YOLOv8:
+- It is designed for tasks like classification, object detection, and image segmentation, YOLOv8 outshines its predecessor, YOLOv7, in both precision and speed. 
+- By utilizing Darknet53 as its backbone, it employs more feature maps and efficient convolutional neural networks, resulting in higher mAP and fps. 
+- YOLOv8 introduces an innovative anchor-free detection head, enabling pixel-wise bounding box estimations akin to image segmentation techniques, and incorporates a new loss function. This culmination of features achieves a mean Average Precision of 53.7% on the COCO benchmark dataset, marking YOLOv8 as a state-of-the-art model in object detection.
 ## 1. Install
 CUDA version used in this project: 11.8
 
